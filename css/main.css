@@ -8,9 +8,7 @@
          url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'open_bold';
@@ -21,9 +19,7 @@
          url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'open_semibold';
@@ -34,19 +30,11 @@
          url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
-
-
 
 section, footer {
 	background: #fffcfc;
 }
-
 /*		General CSS		*/
 body{
 	background: #20866e;
@@ -63,17 +51,7 @@ a:focus{
 	max-width: 1130px;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Header 		*/
-
 header{
 	position: relative;
 	display: block;
@@ -117,15 +95,12 @@ header .burger_icon{
 	background: #ffffff;
 	padding: 5px 10px;
 	text-transform: uppercase;
-
 	color: #43b779;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-
 	margin: 45px 10px 0 0;
 }
 
@@ -156,7 +131,6 @@ header nav li a{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -185,17 +159,7 @@ header .social li:first-child{
 	margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Hero section 		*/
-
 .hero{
 	display: block;
 	position: relative;
@@ -274,7 +238,6 @@ a.app_store_btn{
 	background: url('../../img/android_app.png') no-repeat;
 }
 
-
 a.app_store_btn:hover,
 a.app_store_btn:focus{
 	border-color: #41c27d;
@@ -318,7 +281,6 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-
 .about_video{
     position: fixed;
     top: 0;
@@ -355,15 +317,6 @@ a.app_link{
   font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Featured on section 		*/
 
 .featured_on{
@@ -385,17 +338,7 @@ a.app_link{
 	margin-left: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		About section 		*/
-
 .about{
 	padding: 100px 0;
 }
@@ -482,17 +425,7 @@ a.app_link{
 	display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
 /*		App features 		*/
-
 .app_features{
 	width: 100%;
 	padding: 100px 0 20px 0;
@@ -528,17 +461,7 @@ a.app_link{
 	clear: both;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Testimonials section 		*/
-
 .testimonials{
 	padding: 100px 0;
 }
@@ -634,17 +557,7 @@ a.app_link{
 	background-position: -33px 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Subscription section 		*/
-
 .sub_box{
 	width: 100%;
 	padding: 100px 0;
@@ -685,8 +598,6 @@ a.app_link{
 	-o-border-bottom-left-radius: 2px;
 	-moz-border-bottom-left-radius: 2px;
 	-webkit-border-bottom-left-radius: 2px;
-
-
 }
 
 .sub_box #mc_submit{
@@ -742,17 +653,7 @@ a.app_link{
 	display: none;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Footer 		*/
-
 footer{
 	padding: 100px 0;
 	text-align: center;
@@ -778,16 +679,7 @@ footer .copyright a{
 	color: #565555;
 }
 
-
-
-
-
-
-
-
-
 /*		Responsive CSS 		*/
-
 @media (max-width: 360px) {
 	.featured_on li{
 		display: block;
@@ -796,8 +688,6 @@ footer .copyright a{
 }
 
 @media (max-width: 767px) {
-
-
 	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
@@ -820,7 +710,6 @@ footer .copyright a{
 	header nav.show{
 		display: block;
 	}
-
 
 	header nav li{
 		display: block;
@@ -848,11 +737,6 @@ footer .copyright a{
 		margin-left: 10px;
 	}
 
-
-
-
-
-
 	/*		Hero section 		*/
 	.hero .caption{
 		margin-left: 0;
@@ -866,10 +750,6 @@ footer .copyright a{
 		text-align: center;
 	}
 
-
-
-
-
 	/*		Featured on section		*/
 	.featured_on{
 		padding: 25px 0 5px 0!important;
@@ -878,11 +758,6 @@ footer .copyright a{
 	.featured_on ul li{
 		margin-bottom: 25px!important;
 	}
-
-
-
-
-
 
 	/*		About Section 		*/
 	.about .features_list {
@@ -904,11 +779,6 @@ footer .copyright a{
 		display: block;
 		margin-top: 20px;
 	}
-
-
-
-
-
 
 	/*		Subscription section 		*/
 	.sub_box #mc-email,
